@@ -1,0 +1,398 @@
+[
+    {
+        "voornaam": "LEON",
+        "achternaam": "VAN DER WERF",
+        "leeftijd": 15,
+        "klas": "D2D",
+        "leerjaar": 2,
+        "aantalLesuren": 32,
+        "aantalVakken": 4,
+        "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+        "vakkenDetails": [
+            {"naam": "Nederlands", "cijfer": null},
+            {"naam": "Engels", "cijfer": null},
+            {"naam": "Wiskunde", "cijfer": null},
+            {"naam": "Programmeren", "cijfer": null}
+        ],
+        "studentNummer": 1,
+        "vrienden": [
+            {
+                "voornaam": "AISH",
+                "achternaam": "CHITTU",
+                "leeftijd": 14,
+                "klas": "D2D",
+                "leerjaar": 2,
+                "aantalLesuren": 32,
+                "aantalVakken": 4,
+                "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+                "vakkenDetails": [
+                    {"naam": "Nederlands", "cijfer": null},
+                    {"naam": "Engels", "cijfer": null},
+                    {"naam": "Wiskunde", "cijfer": null},
+                    {"naam": "Programmeren", "cijfer": null}
+                ],
+                "studentNummer": 2
+            },
+            {
+                "voornaam": "FINN",
+                "achternaam": "VAN DIJK",
+                "leeftijd": 16,
+                "klas": "D2D",
+                "leerjaar": 2,
+                "aantalLesuren": 32,
+                "aantalVakken": 4,
+                "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+                "studentNummer": 3
+            },
+            {
+                "voornaam": "MOHAMED",
+                "achternaam": "HAFTAROU",
+                "leeftijd": 15,
+                "klas": "D2D",
+                "leerjaar": 2,
+                "aantalLesuren": 32,
+                "aantalVakken": 4,
+                "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+                "studentNummer": 4
+            },
+            {
+                "voornaam": "STEPHY",
+                "achternaam": "LEI",
+                "leeftijd": 14,
+                "klas": "D2D",
+                "leerjaar": 2,
+                "aantalLesuren": 32,
+                "aantalVakken": 4,
+                "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+                "studentNummer": 5
+
+            },
+            {
+                "voornaam": "LEON",
+                "achternaam": "VAN DER WERF",
+                "leeftijd": 15,
+                "klas": "D2D",
+                "leerjaar": 2,
+                "aantalLesuren": 32,
+                "aantalVakken": 4,
+                "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+                "studentNummer": 1
+            }
+        ]
+
+    },
+    {
+        "voornaam": "AISH",
+        "achternaam": "CHITTU",
+        "leeftijd": 14,
+        "klas": "D2D",
+        "leerjaar": 2,
+        "aantalLesuren": 32,
+        "aantalVakken": 4,
+        "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+        "vakkenDetails": [
+            {"naam": "Nederlands", "cijfer": null},
+            {"naam": "Engels", "cijfer": null},
+            {"naam": "Wiskunde", "cijfer": null},
+            {"naam": "Programmeren", "cijfer": null}
+        ],
+        "studentNummer": 2,
+        "vrienden": [
+            {
+                "voornaam": "AISH",
+                "achternaam": "CHITTU",
+                "leeftijd": 14,
+                "klas": "D2D",
+                "leerjaar": 2,
+                "aantalLesuren": 32,
+                "aantalVakken": 4,
+                "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+                "vakkenDetails": [
+                    {"naam": "Nederlands", "cijfer": null},
+                    {"naam": "Engels", "cijfer": null},
+                    {"naam": "Wiskunde", "cijfer": null},
+                    {"naam": "Programmeren", "cijfer": null}
+                ],
+                "studentNummer": 2
+            },
+            {
+                "voornaam": "FINN",
+                "achternaam": "VAN DIJK",
+                "leeftijd": 16,
+                "klas": "D2D",
+                "leerjaar": 2,
+                "aantalLesuren": 32,
+                "aantalVakken": 4,
+                "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+                "studentNummer": 3
+            },
+            {
+                "voornaam": "MOHAMED",
+                "achternaam": "HAFTAROU",
+                "leeftijd": 15,
+                "klas": "D2D",
+                "leerjaar": 2,
+                "aantalLesuren": 32,
+                "aantalVakken": 4,
+                "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+                "studentNummer": 4
+            },
+            {
+                "voornaam": "STEPHY",
+                "achternaam": "LEI",
+                "leeftijd": 14,
+                "klas": "D2D",
+                "leerjaar": 2,
+                "aantalLesuren": 32,
+                "aantalVakken": 4,
+                "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+                "studentNummer": 5
+
+            },
+            {
+                "voornaam": "LEON",
+                "achternaam": "VAN DER WERF",
+                "leeftijd": 15,
+                "klas": "D2D",
+                "leerjaar": 2,
+                "aantalLesuren": 32,
+                "aantalVakken": 4,
+                "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+                "studentNummer": 1
+            }
+        ]
+
+    },
+    {
+        "voornaam": "FINN",
+        "achternaam": "VAN DIJK",
+        "leeftijd": 16,
+        "klas": "D2D",
+        "leerjaar": 2,
+        "aantalLesuren": 32,
+        "aantalVakken": 4,
+        "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+        "vakkenDetails": [
+            {"naam": "Nederlands", "cijfer": null},
+            {"naam": "Engels", "cijfer": null},
+            {"naam": "Wiskunde", "cijfer": null},
+            {"naam": "Programmeren", "cijfer": null}
+        ],
+        "studentNummer": 3,
+        "vrienden": [
+            {
+                "voornaam": "AISH",
+                "achternaam": "CHITTU",
+                "leeftijd": 14,
+                "klas": "D2D",
+                "leerjaar": 2,
+                "aantalLesuren": 32,
+                "aantalVakken": 4,
+                "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+                "vakkenDetails": [
+                    {"naam": "Nederlands", "cijfer": null},
+                    {"naam": "Engels", "cijfer": null},
+                    {"naam": "Wiskunde", "cijfer": null},
+                    {"naam": "Programmeren", "cijfer": null}
+                ],
+                "studentNummer": 2
+            },
+            {
+                "voornaam": "FINN",
+                "achternaam": "VAN DIJK",
+                "leeftijd": 16,
+                "klas": "D2D",
+                "leerjaar": 2,
+                "aantalLesuren": 32,
+                "aantalVakken": 4,
+                "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+                "studentNummer": 3
+            },
+            {
+                "voornaam": "MOHAMED",
+                "achternaam": "HAFTAROU",
+                "leeftijd": 15,
+                "klas": "D2D",
+                "leerjaar": 2,
+                "aantalLesuren": 32,
+                "aantalVakken": 4,
+                "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+                "studentNummer": 4
+            },
+            {
+                "voornaam": "STEPHY",
+                "achternaam": "LEI",
+                "leeftijd": 14,
+                "klas": "D2D",
+                "leerjaar": 2,
+                "aantalLesuren": 32,
+                "aantalVakken": 4,
+                "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+                "studentNummer": 5
+
+            },
+            {
+                "voornaam": "LEON",
+                "achternaam": "VAN DER WERF",
+                "leeftijd": 15,
+                "klas": "D2D",
+                "leerjaar": 2,
+                "aantalLesuren": 32,
+                "aantalVakken": 4,
+                "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+                "studentNummer": 1
+            }
+        ]
+    },
+    {
+        "voornaam": "MOHAMED",
+        "achternaam": "HAFTAROU",
+        "leeftijd": 15,
+        "klas": "D2D",
+        "leerjaar": 2,
+        "aantalLesuren": 32,
+        "aantalVakken": 4,
+        "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+        "vakkenDetails": [
+            {"naam": "Nederlands", "cijfer": null},
+            {"naam": "Engels", "cijfer": null},
+            {"naam": "Wiskunde", "cijfer": null},
+            {"naam": "Programmeren", "cijfer": null}
+        ],
+        "studentNummer": 4,
+        "vrienden": [
+            {
+                "voornaam": "AISH",
+                "achternaam": "CHITTU",
+                "leeftijd": 14,
+                "klas": "D2D",
+                "leerjaar": 2,
+                "aantalLesuren": 32,
+                "aantalVakken": 4,
+                "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+                "vakkenDetails": [
+                    {"naam": "Nederlands", "cijfer": null},
+                    {"naam": "Engels", "cijfer": null},
+                    {"naam": "Wiskunde", "cijfer": null},
+                    {"naam": "Programmeren", "cijfer": null}
+                ],
+                "studentNummer": 2
+            },
+            {
+                "voornaam": "FINN",
+                "achternaam": "VAN DIJK",
+                "leeftijd": 16,
+                "klas": "D2D",
+                "leerjaar": 2,
+                "aantalLesuren": 32,
+                "aantalVakken": 4,
+                "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+                "studentNummer": 3
+            },
+            {
+                "voornaam": "MOHAMED",
+                "achternaam": "HAFTAROU",
+                "leeftijd": 15,
+                "klas": "D2D",
+                "leerjaar": 2,
+                "aantalLesuren": 32,
+                "aantalVakken": 4,
+                "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+                "studentNummer": 4
+            },
+            {
+                "voornaam": "STEPHY",
+                "achternaam": "LEI",
+                "leeftijd": 14,
+                "klas": "D2D",
+                "leerjaar": 2,
+                "aantalLesuren": 32,
+                "aantalVakken": 4,
+                "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+                "studentNummer": 5
+
+            },
+            {
+                "voornaam": "LEON",
+                "achternaam": "VAN DER WERF",
+                "leeftijd": 15,
+                "klas": "D2D",
+                "leerjaar": 2,
+                "aantalLesuren": 32,
+                "aantalVakken": 4,
+                "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+                "studentNummer": 1
+            }
+        ]
+    },
+    {
+        "voornaam": "STEPHY",
+        "achternaam": "LEI",
+        "leeftijd": 14,
+        "klas": "D2D",
+        "leerjaar": 2,
+        "aantalLesuren": 32,
+        "aantalVakken": 4,
+        "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+        "studentNummer": 5,
+        "vrienden": [
+            {
+                "voornaam": "AISH",
+                "achternaam": "CHITTU",
+                "leeftijd": 14,
+                "klas": "D2D",
+                "leerjaar": 2,
+                "aantalLesuren": 32,
+                "aantalVakken": 4,
+                "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+                "studentNummer": 2
+            },
+            {
+                "voornaam": "FINN",
+                "achternaam": "VAN DIJK",
+                "leeftijd": 16,
+                "klas": "D2D",
+                "leerjaar": 2,
+                "aantalLesuren": 32,
+                "aantalVakken": 4,
+                "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+                "studentNummer": 3
+            },
+            {
+                "voornaam": "MOHAMED",
+                "achternaam": "HAFTAROU",
+                "leeftijd": 15,
+                "klas": "D2D",
+                "leerjaar": 2,
+                "aantalLesuren": 32,
+                "aantalVakken": 4,
+                "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+                "studentNummer": 4
+            },
+            {
+                "voornaam": "STEPHY",
+                "achternaam": "LEI",
+                "leeftijd": 14,
+                "klas": "D2D",
+                "leerjaar": 2,
+                "aantalLesuren": 32,
+                "aantalVakken": 4,
+                "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+                "studentNummer": 5
+
+            },
+            {
+                "voornaam": "LEON",
+                "achternaam": "VAN DER WERF",
+                "leeftijd": 15,
+                "klas": "D2D",
+                "leerjaar": 2,
+                "aantalLesuren": 32,
+                "aantalVakken": 4,
+                "vak": ["Nederlands", "Engels", "Wiskunde", "Programmeren"],
+                "studentNummer": 1
+            }
+        ]
+
+    }
+]

@@ -6,8 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Internet meme archive</title>
-    <script src="./script/memes.js" defer></script>
     <link rel="stylesheet" href="./style/global.css">
+    
+    <script src="./script/models/Meme.js" defer></script>
+    <script src="./script/services/MemeAPI.js" defer></script>
+    <script src="./script/views/MemeUI.js" defer></script>
+    <script src="./script/views/MemeForm.js" defer></script>
+    <script src="./script/controllers/MemeApp.js" defer></script>
+    <script src="./script/main.js" defer></script>
 </head>
 
 <body>
@@ -27,6 +33,7 @@
         <input type="submit" id="addButton" value="Add">
     </form>
     <br>
+    <button id="loadButton">Load Memes</button>
     <br><br>
     <div id="memesContainer"></div>
     <div id="outputDiv">

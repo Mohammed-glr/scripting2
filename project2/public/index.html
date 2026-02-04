@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WALL•E Ruimtevaartuig Besturing</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>WALL•E Ruimtevaartuig Besturing</h1>
+
+            <div id="status" class="status-display">
+                <h2>Status Overzicht</h2>
+                <div class="status-item">
+                    <h3>Batterij</h3>
+                    <p id="battery">--</p>
+                </div>
+                <div class="status-item">
+                    <h3>Modus</h3>
+                    <p id="mode">--</p>
+                </div>
+                <div class="status-item">
+                    <h3>Positie</h3>
+                    <p id="position">--</p>
+                </div>
+                <div class="status-item">
+                    <h3>Actieve Sensoren</h3>
+                    <p id="sensors">--</p>
+                </div>
+                <div class="status-item">
+                    <h3>Grondstoffen</h3>
+                    <div id="resources" class="resources-list">--</div>
+                </div>
+        </div>
+
+        <div class="card">
+            <h2>Handvaten</h2>
+            <button type="button" onclick="loadStatus()" class="btn-secondary">Status Vernieuwen</button>
+            <button type="button" onclick="loadHistory()" class="btn-secondary">Geschiedenis Weergeven</button>
+        </div>
+
+        <div class="card">
+            <h2>Besturing</h2>
+            <div id="message" class="message"></div>
+            
+            <form id="controlForm">
+                <div class="form-group">
+                    <label for="action">Actie</label>
+                    <select id="action" name="action" required>
+                        <option value="">Selecteer een actie</option>
+                        <option value="forward">Beweeg vooruit</option>
+                        <option value="backward">Beweeg achteruit</option>
+                        <option value="left">Draai naar links</option>
+                        <option value="right">Draai naar rechts</option>
+                        <option value="stop">Stop beweging</option>
+                        <option value="sleep">Slaapstand</option>
+                        <option value="wake">Activeer uit slaapstand</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Sensoren (minimaal 2 selecteren)</label>
+                    <div class="sensor-group">
+                        <div class="checkbox-wrapper">
+                            <input type="checkbox" id="temperature" name="sensors" value="temperature">
+                            <label for="temperature">Temperatuur</label>
+                        </div>
+                        <div class="checkbox-wrapper">
+                            <input type="checkbox" id="camera" name="sensors" value="camera">
+                            <label for="camera">Camera</label>
+                        </div>
+                        <div class="checkbox-wrapper">
+                            <input type="checkbox" id="radar" name="sensors" value="radar">
+                            <label for="radar">Radar</label>
+                        </div>
+                        <div class="checkbox-wrapper">
+                            <input type="checkbox" id="oxygen" name="sensors" value="oxygen">
+                            <label for="oxygen">Zuurstof</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="button-group">
+                    <button type="submit">Uitvoeren</button>
+                    <button type="button" onclick="emergencyStop()" class="btn-danger">🚨 Noodstop</button>
+                    <button type="button" onclick="resetSpacecraft()" class="btn-warning">Reset</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="card">
+            <h2>Actie Geschiedenis</h2>
+            <div id="historyContainer" style="display: none;">
+                <div id="historyList" style="max-height: 400px; overflow-y: auto;"></div>
+            </div>
+            <div id="noHistory" style="text-align: center; color: #999;">
+                Nog geen acties uitgevoerd. Klik "Geschiedenis Weergeven" om te zien.
+            </div>
+        </div>
+    </div>
+
+    <script src="/app.js"></script>
+</body>
+</html>

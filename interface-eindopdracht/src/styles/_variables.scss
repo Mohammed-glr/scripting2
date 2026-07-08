@@ -1,0 +1,45 @@
+// Cyberpunk Neon Palette
+$color-bg-darker: #0a0a0f;
+$color-bg-dark: #12121e;
+$color-bg-card: #1a1a2e;
+$color-bg-input: #0f0f18;
+$color-border: #2e2e4a;
+
+// Neon Accent Colors
+$color-pink: #ff0055;
+$color-pink-glow: rgba(255, 0, 85, 0.4);
+
+$color-cyan: #00f0ff;
+$color-cyan-glow: rgba(0, 240, 255, 0.4);
+
+$color-purple: #9d00ff;
+$color-purple-glow: rgba(157, 0, 255, 0.4);
+
+$color-green: #39ff14;
+$color-green-glow: rgba(57, 255, 20, 0.4);
+
+$color-yellow: #ffc800;
+$color-yellow-glow: rgba(255, 200, 0, 0.4);
+
+$color-text-main: #f5f5fa;
+$color-text-muted: #8b8baf;
+$color-text-dim: #5c5c7d;
+
+// Fonts
+$font-header: 'Orbitron', 'Segoe UI', system-ui, -apple-system, sans-serif;
+$font-body: 'Roboto', 'Inter', system-ui, -apple-system, sans-serif;
+
+// Spacing & Layout
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+$border-radius-pill: 9999px;
+
+$transition-speed-fast: 0.15s;
+$transition-speed-normal: 0.3s;
+$transition-speed-slow: 0.5s;
+
+$shadow-neon-pink: 0 0 10px $color-pink-glow, 0 0 20px rgba(255, 0, 85, 0.2);
+$shadow-neon-cyan: 0 0 10px $color-cyan-glow, 0 0 20px rgba(0, 240, 255, 0.2);
+$shadow-neon-purple: 0 0 10px $color-purple-glow, 0 0 20px rgba(157, 0, 255, 0.2);
+$shadow-neon-green: 0 0 10px $color-green-glow, 0 0 20px rgba(57, 255, 20, 0.2);

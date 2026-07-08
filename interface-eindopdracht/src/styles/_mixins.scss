@@ -1,0 +1,65 @@
+@use 'variables' as *;
+
+// Flexbox shorthand mixin
+@mixin flex($justify: center, $align: center, $direction: row, $gap: 0) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+  gap: $gap;
+}
+
+// Neon Glow Border effect
+@mixin neon-border($color: $color-cyan, $glow-opacity: 0.4) {
+  border: 1px solid $color;
+  box-shadow: 0 0 8px rgba($color, $glow-opacity), inset 0 0 4px rgba($color, $glow-opacity / 2);
+}
+
+// Neon Text Glow
+@mixin neon-text($color: $color-pink) {
+  color: $color;
+  text-shadow: 0 0 5px rgba($color, 0.6), 0 0 10px rgba($color, 0.4);
+}
+
+// Media Query Mixin for Responsive Styling
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == 'mobile' {
+    @media (max-width: 767px) { @content; }
+  }
+  @else if $breakpoint == 'tablet' {
+    @media (min-width: 768px) and (max-width: 1023px) { @content; }
+  }
+  @else if $breakpoint == 'desktop' {
+    @media (min-width: 1024px) { @content; }
+  }
+}
+
+// Custom Cyberpunk Scrollbar
+@mixin custom-scrollbar {
+  &::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  &::-webkit-scrollbar-track {
+    background: $color-bg-darker;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background: $color-border;
+    border-radius: $border-radius-sm;
+    
+    &:hover {
+      background: $color-cyan;
+      box-shadow: 0 0 5px $color-cyan;
+    }
+  }
+}
+
+// Glassmorphism background
+@mixin glass-panel($bg: rgba($color-bg-card, 0.7), $blur: 12px) {
+  background: $bg;
+  backdrop-filter: blur($blur);
+  -webkit-backdrop-filter: blur($blur);
+  border: 1px solid rgba($color-border, 0.5);
+}
